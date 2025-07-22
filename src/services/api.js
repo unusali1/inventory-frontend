@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'https://inventory-backend-rk72.onrender.com/api'; 
+const API_BASE = 'https://inventory-backend-zgp0.onrender.com/api'; 
 
 export const login = (data) => axios.post(`${API_BASE}/auth/login`, data);
 export const registration = (data) => axios.post(`${API_BASE}/auth/register`, data);
