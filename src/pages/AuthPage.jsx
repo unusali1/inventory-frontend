@@ -141,23 +141,6 @@ const AuthPage = () => {
             {loadingLogin ? "Signing In..." : "Sign In"}
           </button>
         </div>
-
-        <div className="mt-6 text-center">
-          <p className="text-gray-600 dark:text-gray-300">
-            Don't have an account?{" "}
-            <a href="/signup" className="text-blue-600 hover:underline">
-              Sign up
-            </a>
-          </p>
-          <p className="text-gray-600 dark:text-gray-300 mt-2">
-            <a
-              href="/forgot-password"
-              className="text-blue-600 hover:underline"
-            >
-              Forgot your password?
-            </a>
-          </p>
-        </div>
       </div>
     </div>
   );
